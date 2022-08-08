@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/icimidemirag/kodluyoruzilkrepo#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0"
   }
 }
