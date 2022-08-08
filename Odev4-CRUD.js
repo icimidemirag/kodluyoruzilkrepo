@@ -6,7 +6,7 @@ fs.writeFile('employees.json', '{"name": "Employee 1 Name", "salary":2000}', 'ut
     console.log('Dosya oluşturuldu.');
 })
 
-// //File reading
+//File reading
 fs.readFile('employees.json', 'utf-8', (err, data) => {
     if(err) console.log(err);
     console.log(data);
