@@ -1,0 +1,22 @@
+{
+  "name": "kodluyoruzilkrepo",
+  "version": "1.0.0",
+  "description": "Bu repo [Kodluyoruz](https://www.kodluyoruz.org) Front-End Eğitiminde oluşturduğumuz ilk repo. İçerisinde bir adet README dosyası, bir adet de index.html barındırıyor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icimidemirag/kodluyoruzilkrepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icimidemirag/kodluyoruzilkrepo/issues"
+  },
+  "homepage": "https://github.com/icimidemirag/kodluyoruzilkrepo#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
