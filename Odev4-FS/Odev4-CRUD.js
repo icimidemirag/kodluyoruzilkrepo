@@ -13,10 +13,10 @@ const fs = require('fs');
 //     console.log('Dosya okundu.');
 // })
 
+//Data update
 const fileName = './employees.json';
 const file = require(fileName);
 file.push({"name": "Employee 2 Name", "salary": 3000} )
-//Data update
 fs.writeFile(fileName, JSON.stringify(file), function writeJSON(err) {
     if (err) return console.log(err);
     console.log(JSON.stringify(file));
